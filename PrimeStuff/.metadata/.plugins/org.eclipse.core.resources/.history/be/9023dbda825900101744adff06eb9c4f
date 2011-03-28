@@ -5,11 +5,8 @@ public class PrimeGeneration {
 		ArrayList<Integer> ls = new ArrayList<Integer>();
 		if(n<=2)
 			return ls;
-		for(int i = 2; i < n; i++){
-			if(isPrime(i)){
-				ls.add(i);
-			}
-		}
+		if()
+		ls.addAll(generatePrimes(n - 1));
 		return ls;
 	}
 

@@ -5,23 +5,21 @@ public class PrimeGeneration {
 		ArrayList<Integer> ls = new ArrayList<Integer>();
 		if(n<=2)
 			return ls;
-		for(int i = 2; i < n; i++){
-			if(isPrime(i)){
-				ls.add(i);
-			}
-		}
+		if()
+		ls.addAll(generatePrimes(n - 1));
 		return ls;
 	}
-
-	public static boolean isPrime(int n) {
+	
+	public static boolean isPrime(int n){
 		int nbegin = n;
-		for (int x = 2; x <= Math.sqrt(nbegin); x++) {
-			while (n % x == 0) {
-				n = n / x;
+		for(int x=2; x<=Math.sqrt(nbegin); x++){
+			while(n%x == 0)
+			{
+				n = n/x;
 				return false;
-			}
-		}
-		return true;
+			}}
+		if (n == nbegin)
+			return true;
 	}
-
+	
 }

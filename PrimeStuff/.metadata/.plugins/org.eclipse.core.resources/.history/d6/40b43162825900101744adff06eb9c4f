@@ -1,0 +1,11 @@
+import java.util.ArrayList;
+
+public class PrimeGeneration {
+	public static ArrayList<Integer> generatePrimes(int n){
+		ArrayList<Integer> ls = new ArrayList<Integer>();
+		if(n<=2)
+			return ls;
+		ls.add(n);
+		return ls;
+	}
+}
