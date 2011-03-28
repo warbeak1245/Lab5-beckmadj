@@ -42,7 +42,6 @@ public class TestPrimeFactorization {
 		assertEquals(stuff, PrimeFactorization.generatePrimes(6));
 	}
 	
-	@Test
 	public void testEight(){
 		ArrayList<Integer> stuff = new ArrayList<Integer>();
 		stuff.add(2);

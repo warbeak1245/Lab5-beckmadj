@@ -41,13 +41,4 @@ public class TestPrimeFactorization {
 		stuff.add(3);
 		assertEquals(stuff, PrimeFactorization.generatePrimes(6));
 	}
-	
-	@Test
-	public void testEight(){
-		ArrayList<Integer> stuff = new ArrayList<Integer>();
-		stuff.add(2);
-		stuff.add(2);
-		stuff.add(2);
-		assertEquals(stuff, PrimeFactorization.generatePrimes(8));
-	}
 }
