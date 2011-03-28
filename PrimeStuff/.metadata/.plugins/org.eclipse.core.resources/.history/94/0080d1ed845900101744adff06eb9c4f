@@ -85,6 +85,7 @@ public class TestPrimeGeneration {
 		stuff.add(73);
 		stuff.add(79);
 		stuff.add(83);
+		stuff.add(87);
 		assertEquals(stuff, PrimeGeneration.generatePrimes(88));
 	}
 	
