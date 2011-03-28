@@ -9,7 +9,7 @@ public class PrimeFactorization {
 			return ls;
 		}
 		int nbegin = n;
-		for(int x=2; x<=Math.sqrt(nbegin); x++){
+		for(int x=2; x<Math.sqrt(nbegin); x++){
 		while(n%x == 0)
 		{
 			ls.add(x);
