@@ -58,14 +58,4 @@ public class TestPrimeFactorization {
 		stuff.add(3);
 		assertEquals(stuff, PrimeFactorization.generatePrimes(9));
 	}
-	
-	@Test
-	public void testThreeHundredAndTwentyFiveThousandOneHundredAndFifteen(){
-		ArrayList<Integer> stuff = new ArrayList<Integer>();
-		stuff.add(5);
-		stuff.add(7);
-		stuff.add(7);
-		stuff.add(1327);
-		assertEquals(stuff, PrimeFactorization.generatePrimes(325115));
-	}
 }

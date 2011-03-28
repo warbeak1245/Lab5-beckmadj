@@ -66,6 +66,6 @@ public class TestPrimeFactorization {
 		stuff.add(7);
 		stuff.add(7);
 		stuff.add(1327);
-		assertEquals(stuff, PrimeFactorization.generatePrimes(325115));
+		assertEquals(stuff, PrimeFactorization.generatePrimes(9));
 	}
 }
