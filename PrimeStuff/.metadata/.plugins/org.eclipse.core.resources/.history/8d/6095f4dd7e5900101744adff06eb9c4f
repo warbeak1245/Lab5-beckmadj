@@ -50,12 +50,4 @@ public class TestPrimeFactorization {
 		stuff.add(2);
 		assertEquals(stuff, PrimeFactorization.generatePrimes(8));
 	}
-	
-	@Test
-	public void testNine(){
-		ArrayList<Integer> stuff = new ArrayList<Integer>();
-		stuff.add(3);
-		stuff.add(3);
-		assertEquals(stuff, PrimeFactorization.generatePrimes(9));
-	}
 }

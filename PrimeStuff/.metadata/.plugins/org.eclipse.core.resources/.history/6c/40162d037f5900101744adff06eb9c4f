@@ -13,6 +13,7 @@ public class PrimeFactorization {
 			ls.add(2);
 			n = n/2;
 		}
+			
 		if (n > 1)
 			ls.add(n);
 		return ls;
