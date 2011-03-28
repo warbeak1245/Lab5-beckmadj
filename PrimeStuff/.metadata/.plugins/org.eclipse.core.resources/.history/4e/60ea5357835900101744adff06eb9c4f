@@ -18,15 +18,4 @@ public class TestPrimeGeneration {
 		stuff.add(2);
 		assertEquals(stuff, PrimeGeneration.generatePrimes(3));
 	}
-	
-	@Test
-	public void testThriteen(){
-		ArrayList<Integer> stuff = new ArrayList<Integer>();
-		stuff.add(2);
-		stuff.add(3);
-		stuff.add(5);
-		stuff.add(7);
-		stuff.add(11);
-		assertEquals(stuff, PrimeGeneration.generatePrimes(13));
-	}
 }

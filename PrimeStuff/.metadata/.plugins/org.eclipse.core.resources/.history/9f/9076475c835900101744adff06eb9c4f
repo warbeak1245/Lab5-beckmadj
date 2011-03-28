@@ -19,7 +19,6 @@ public class TestPrimeGeneration {
 		assertEquals(stuff, PrimeGeneration.generatePrimes(3));
 	}
 	
-	@Test
 	public void testThriteen(){
 		ArrayList<Integer> stuff = new ArrayList<Integer>();
 		stuff.add(2);
