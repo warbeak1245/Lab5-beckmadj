@@ -11,11 +11,4 @@ public class TestPrimeGeneration {
 	public void testTwo(){
 		assertEquals(new ArrayList<Integer>(), PrimeGeneration.generatePrimes(2));
 	}
-	
-	@Test
-	public void testThree(){
-		ArrayList<Integer> stuff = new ArrayList<Integer>();
-		stuff.add(2);
-		assertEquals(stuff, PrimeGeneration.generatePrimes(3));
-	}
 }
