@@ -13,8 +13,6 @@ public class TestPrimeFactorization {
 	}
 	@Test
 	public void testTwo(){
-		ArrayList<Integer> stuff = new ArrayList<Integer>();
-		stuff.add(2);
-		assertEquals(stuff, PrimeFactorization.generatePrimes(2));
+		assertEquals(new ArrayList<Integer>(2), PrimeFactorization.generatePrimes(2));
 	}
 }

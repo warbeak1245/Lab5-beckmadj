@@ -11,10 +11,4 @@ public class TestPrimeFactorization {
 	public void testOne(){
 		assertEquals(new ArrayList<Integer>(), PrimeFactorization.generatePrimes(1));
 	}
-	@Test
-	public void testTwo(){
-		ArrayList<Integer> stuff = new ArrayList<Integer>();
-		stuff.add(2);
-		assertEquals(stuff, PrimeFactorization.generatePrimes(2));
-	}
 }
