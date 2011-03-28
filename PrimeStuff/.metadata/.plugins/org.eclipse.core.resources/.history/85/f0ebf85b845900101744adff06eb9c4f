@@ -29,8 +29,6 @@ public class TestPrimeGeneration {
 		stuff.add(11);
 		assertEquals(stuff, PrimeGeneration.generatePrimes(13));
 	}
-	
-	@Test
 	public void testEightySeven(){
 		ArrayList<Integer> stuff = new ArrayList<Integer>();
 		stuff.add(2);
@@ -56,8 +54,7 @@ public class TestPrimeGeneration {
 		stuff.add(73);
 		stuff.add(79);
 		stuff.add(83);
-		assertEquals(stuff, PrimeGeneration.generatePrimes(87));
+		assertEquals(stuff, PrimeGeneration.generatePrimes(13));
 	}
-	
 	
 }
